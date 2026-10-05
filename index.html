@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal profile website of Apurv Arora">
+    <title>Apurv Arora | CCE Student & Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">AA</a>
+
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">COMPUTER & COMMUNICATION ENGINEERING</p>
+                <h1>Hi, I'm <span>Apurv Arora.</span></h1>
+                <p class="hero-text">
+                    A B.Tech student at Manipal Institute of Technology who enjoys
+                    building practical software using Java, databases, and modern
+                    development tools.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary">View My Work</a>
+                    <a href="#contact" class="button secondary">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="profile-card">
+                <img src="assets/profile.jpg" alt="Profile photograph of Apurv Arora">
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">ABOUT ME</p>
+                <h2>A little about me</h2>
+            </div>
+
+            <div class="about-grid">
+                <div>
+                    <p>
+                        I am pursuing a Bachelor of Technology in Computer and
+                        Communication Engineering at Manipal Institute of Technology,
+                        Manipal. I enjoy understanding how software works from the
+                        interface to the underlying database and logic.
+                    </p>
+                    <p>
+                        My current work includes Java desktop applications, database
+                        systems, data structures, operating systems, and computer
+                        networks. I like turning academic concepts into working
+                        projects.
+                    </p>
+                </div>
+
+                <div class="stats">
+                    <div class="stat">
+                        <strong>7.12</strong>
+                        <span>Current CGPA</span>
+                    </div>
+                    <div class="stat">
+                        <strong>92.6%</strong>
+                        <span>Class XII</span>
+                    </div>
+                    <div class="stat">
+                        <strong>94.2%</strong>
+                        <span>Class X</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section alt-section">
+            <div class="section-heading">
+                <p class="eyebrow">EDUCATION</p>
+                <h2>Academic journey</h2>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">2024 – Present</span>
+                        <h3>Bachelor of Technology</h3>
+                        <h4>Computer and Communication Engineering</h4>
+                        <p>Manipal Institute of Technology, Manipal, Karnataka</p>
+                        <strong>CGPA: 7.12</strong>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">Class XII · 2024</span>
+                        <h3>Senior Secondary — Science (PCM)</h3>
+                        <p>K.R. Mangalam World School, Vikaspuri, New Delhi</p>
+                        <strong>Percentage: 92.6%</strong>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="date">Class X</span>
+                        <h3>Secondary School</h3>
+                        <p>K.R. Mangalam World School, Vikaspuri, New Delhi</p>
+                        <strong>Percentage: 94.2%</strong>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">SKILLS</p>
+                <h2>What I work with</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">01</div>
+                    <h3>Programming</h3>
+                    <p>Core Java, C, C++, SQL</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">02</div>
+                    <h3>Java Ecosystem</h3>
+                    <p>JavaFX, JDBC, Maven, Collections Framework</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">03</div>
+                    <h3>Database</h3>
+                    <p>Oracle DB, PL/SQL, Stored Procedures, Functions, Triggers</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">04</div>
+                    <h3>Core Concepts</h3>
+                    <p>OOP, Data Structures & Algorithms, Operating Systems, Computer Networks</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">05</div>
+                    <h3>Tools</h3>
+                    <p>IntelliJ IDEA, VS Code, GitHub</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section alt-section">
+            <div class="section-heading">
+                <p class="eyebrow">PROJECTS</p>
+                <h2>Things I've built</h2>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-number">01</div>
+                    <h3>IPL Management System</h3>
+                    <p class="tech">Java · JavaFX · JDBC · Oracle SQL · PL/SQL</p>
+                    <p>
+                        A three-tier desktop application for managing IPL teams,
+                        players, matches, and statistics. It includes SQL analytics,
+                        PL/SQL business logic, prepared statements, integrity
+                        constraints, and a JavaFX interface.
+                    </p>
+                    <div class="tags">
+                        <span>JavaFX</span>
+                        <span>Oracle</span>
+                        <span>JDBC</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
+                    <h3>Hotel Management System</h3>
+                    <p class="tech">Java · JavaFX · Maven</p>
+                    <p>
+                        A desktop hotel management application covering room booking,
+                        checkout, customer management, and billing, with Java
+                        serialization for persistent object storage.
+                    </p>
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>JavaFX</span>
+                        <span>Maven</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="interests" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">INTERESTS</p>
+                <h2>Beyond coding</h2>
+            </div>
+
+            <div class="interests">
+                <div class="interest">⚽ <span>Football</span></div>
+                <div class="interest">💻 <span>Software Development</span></div>
+                <div class="interest">🧩 <span>Problem Solving</span></div>
+                <div class="interest">📚 <span>Learning New Technologies</span></div>
+            </div>
+
+            <p class="football-note">
+                I have represented both Manipal Institute of Technology and
+                K.R. Mangalam in football, including inter-college, CBSE, and
+                zonal-level competitions.
+            </p>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="contact-content">
+                <p class="eyebrow">GET IN TOUCH</p>
+                <h2>Let's connect.</h2>
+                <p>
+                    Feel free to reach out for project discussions, collaborations,
+                    or simply to connect.
+                </p>
+
+                <div class="contact-links">
+                    <a href="mailto:apurv.arora07@gmail.com">✉ Email</a>
+                    <a href="tel:+919599519228">☎ Phone</a>
+                    <a href="https://github.com/Apurv-Txt" target="_blank" rel="noopener">↗ GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Apurv Arora · Built with HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
